@@ -7,7 +7,8 @@
   "private": true,
   "dependencies": {
     "@tensorflow/tfjs": "0.13.4",
-    "@tensorflow/tfjs-converter": "file:.yalc/@tensorflow/tfjs-converter"
+    "@tensorflow/tfjs-core": "0.14.2",
+    "@tensorflow/tfjs-converter": "0.7.1"
   },
   "scripts": {
     "mobilenet": "NODE_ENV=development parcel mobilenet/index.html --no-hmr --open ",
